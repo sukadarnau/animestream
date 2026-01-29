@@ -67,6 +67,7 @@
 * [ac87b61](https://github.com/sukadarnau/animestream/commit/ac87b61): refactor and changes
 
 ### 🧹 Chores & Documentation
+* [8d33418](https://github.com/sukadarnau/animestream/commit/8d33418): docs: update changelog for v1.4.3
 * [5c1c5f3](https://github.com/sukadarnau/animestream/commit/5c1c5f3): docs: update changelog for v1.4.3
 * [4922f0d](https://github.com/sukadarnau/animestream/commit/4922f0d): docs: remove placeholder role mentions
 * [30e9e37](https://github.com/sukadarnau/animestream/commit/30e9e37): chore: add build & release workflows with Discord notifications
