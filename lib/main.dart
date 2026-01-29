@@ -38,7 +38,8 @@ void main(List<String> args) async {
       return;
     }
 
-    WidgetsFlutterBinding.ensureInitialized();
+    WidgetsFlutterBinding.ensureInitialized(); //
+   SystemChrome.setEnabledSystemUIMode(SystemUiMode.immersiveSticky); //
 
     // Initialise app version instance
     AppVersion.init();
