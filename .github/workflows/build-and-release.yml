@@ -98,14 +98,14 @@ jobs:
       - name: Build Universal APK
         run: |
           flutter build apk \
-            --release \
+            --debug \
             --build-number=${{ needs.extract-version.outputs.version_code }} \
             --build-name=${{ needs.extract-version.outputs.version }}
 
       - name: Build Split APKs
         run: |
           flutter build apk \
-            --release \
+            --debug \
             --split-per-abi \
             --build-number=${{ needs.extract-version.outputs.version_code }} \
             --build-name=${{ needs.extract-version.outputs.version }}
